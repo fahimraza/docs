@@ -95,7 +95,7 @@ function updatedPosts(a) {
     }
 }
 var you_script = document.createElement('script');
-you_script.src = homePage + '/feeds/posts/summary?alt=json-in-script&orderby=updated&callback=updatedPosts' + max-results=numPosts ;
+you_script.src = homePage + '/feeds/posts/summary?alt=json-in-script&orderby=updated&callback=updatedPosts&max-results=numPosts';
 document.getElementsByTagName('head')[0].appendChild(you_script);
 
 
